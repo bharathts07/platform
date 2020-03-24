@@ -4,8 +4,8 @@ provider "google" {
   credentials = file("keys/pokke-cred.json")
 
   project = "pokke-256703"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  region  = "asia-northeast1"
+  zone    = "asia-northeast1-b"
 }
 
 resource "google_compute_network" "vpc_network" {
